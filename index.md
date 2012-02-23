@@ -7,7 +7,7 @@ Arch Linux ARM (ALARM) is a Linux distribution for ARM computers.
 
 We support ARMv5, OXNAS-based ARMv6, Cortex-A8, Cortex-A9, and Tegra platforms. Our collaboration with Arch Linux (Upstream) brings users the best platform, newest packages, and installation support.
 
-This collection of pages is meant for people interested in how the ALARM ecosystem works. This documentation is meant to be short and easy to maintain.
+This collection of pages is meant for people interested in how the ALARM ecosystem works. This documentation is meant to be short and easy to maintain. Its main focus is on the ALARM distribution and how it is built, not the hardware it runs on.
 
 ## Topics ##
 ### Design/OS Concepts ###
