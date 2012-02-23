@@ -9,8 +9,7 @@ We support ARMv5, OXNAS-based ARMv6, Cortex-A8, Cortex-A9, and Tegra platforms. 
 
 This collection of pages is meant for people interested in how the ALARM ecosystem works. This documentation is meant to be short and easy to maintain. Its main focus is on the ALARM distribution and how it is built, not the hardware it runs on.
 
-## Topics ##
-### Design/OS Concepts ###
+## Design/OS Concepts ##
 * [ABS (Upstream)](https://wiki.archlinux.org/index.php/Arch_Build_System) - Arch Linux Upstream PKGBUILDs
 * [ALARM PKGBUILDs](https://github.com/archlinuxarm/PKGBUILDs) - Custom PKGBUILDs for ARM
 * [DistCC](#!/concepts/distcc) - DistCC, used to send source to another computer to build (general)
@@ -25,7 +24,7 @@ This collection of pages is meant for people interested in how the ALARM ecosyst
 * [Google Summer of Code 2012](#!/ideas/gsoc) - Maybe?
 * The PandaFarm - A cluster of 6-8 PandaBoards in a slick, custom-designed rack.
 
-### Porting to New Devices ###
+## Porting to New Devices ##
 * Coming soon
 
 ## How to Get Involved with Developing ALARM ##
@@ -33,7 +32,6 @@ This collection of pages is meant for people interested in how the ALARM ecosyst
 2. Clone a Git repository, make changes, and submit a pull request.
 3. Go back on IRC and let others know!
 4. Over time, if you show a desire to help the project out, you'll get permissions to more and more things.
-
 
 ## Todo ##
 Each project with a Github repository stores Todo items in its "Issues" section.
