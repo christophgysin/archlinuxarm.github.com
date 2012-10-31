@@ -22,9 +22,9 @@ This collection of pages is meant for people interested in how the ALARM ecosyst
 
 ## Side Projects/Ideas ##
 * [Google Summer of Code 2012](#!/ideas/gsoc) - Maybe?
-* The PandaFarm - A cluster of 6-8 PandaBoards in a slick, custom-designed rack.
+* The "Le Farm" - A cluster of 6 PandaBoards & 6 Nitrogen6x's in a slick, custom-designed enclosure.
 
-## Porting to New Devices ##
+## "Porting" to New Devices ##
 * Coming soon
 
 ## How to Get Involved with Developing ALARM ##
