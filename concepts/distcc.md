@@ -44,12 +44,14 @@ In /etc/hosts.allow, define distccd hosts or network, otherwise the master won't
 
     distccd: 10.3.0.0/24
 
-Add distccd to the `DAEMONS` line in /etc/rc.conf to start distccd on boot:
+Add distccd to the `DAEMONS` line in /etc/rc.conf to start distccd on boot and start the daemon:
 
     DAEMONS=(syslog-ng network ... distccd)
-
-Start the daemon:
-
     /etc/rc.d/distccd start
+
+Alternatively, if the client uses systemd:
+
+    systemctl enable distccd
+    systemctl start distccd.service
 
 You can now run `makepkg` as you normally would and the hosts specified will start receiving work. If the hosts are unavailable, the package will simply compile locally.
