@@ -38,7 +38,7 @@ This is what you'd run on a second ARM device or a cross-compiling computer.
 
 In /etc/conf.d/distccd, change `DISTCC_ARGS` to reflect the hosts or network you're allowing to connect:
 
-    DISTCC_ARGS="--user nobody --allow 10.3.0.0/24"
+    DISTCC_ARGS="--allow 10.3.0.0/24"
 
 In /etc/hosts.allow, define distccd hosts or network, otherwise the master won't be able to connect (distcc runs on port 3632):
 
@@ -47,10 +47,6 @@ In /etc/hosts.allow, define distccd hosts or network, otherwise the master won't
 Add distccd to the `DAEMONS` line in /etc/rc.conf to start distccd on boot and start the daemon:
 
     DAEMONS=(syslog-ng network ... distccd)
-    /etc/rc.d/distccd start
-
-Alternatively, if the client uses systemd:
-
     systemctl enable distccd
     systemctl start distccd.service
 

@@ -68,7 +68,7 @@ After the initial header block, add this line or modify PATH if it already exist
 At this point, start/restart distcc:
 
 * Debian/Ubuntu: /etc/init.d/distcc start|restart
-* Arch Linux: /etc/rc.d/distccd start|restart
+* Arch Linux: systemctl restart distccd
 
 ### Compiling Packages ###
 Back on ALARM master device, make sure that distcc has been enabled in makepkg.conf and specify the cross-compiler computer's IP address in the DISTCC_HOSTS variable. Build packages like you normally would with makepkg.
